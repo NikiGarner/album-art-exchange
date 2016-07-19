@@ -1,0 +1,99 @@
+html, body {
+  background-color: #b2a59b;
+  font-family: sans-serif; }
+
+.body {
+  display: flex;
+  flex-wrap: wrap; }
+  .body .row-1 {
+    background-color: #a08877;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px; }
+    .body .row-1 ul {
+      display: flex;
+      list-style: none;
+      margin-right: 10px; }
+    .body .row-1 li {
+      padding: 10px; }
+    .body .row-1 a {
+      text-decoration: underline;
+      color: #e6e6e1; }
+      .body .row-1 a:hover {
+        color: #afbfb1; }
+    .body .row-1 img {
+      padding-top: 40px;
+      margin-left: 10px; }
+    .body .row-1 h1 {
+      color: #e6e6e1;
+      font-size: 13px;
+      font-weight: lighter;
+      width: 45%;
+      margin: 0;
+      margin-bottom: 20px;
+      padding-left: 50px;
+      text-align: justify; }
+  .body .row-2 {
+    background-color: #668b6b;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .body .row-2 .search {
+      display: flex;
+      width: 90vw;
+      justify-content: space-around;
+      padding-top: 40px; }
+      .body .row-2 .search .search-field input[type=text] {
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url("../img/searchicon.png");
+        background-position: 5px 5px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out; }
+      .body .row-2 .search .search-field input[type=text]:focus {
+        width: 100%; }
+      .body .row-2 .search h2 {
+        color: #b2a59b;
+        font-size: 16px;
+        font-weight: lighter; }
+    .body .row-2 .gallery {
+      display: flex;
+      width: 90vw;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .body .row-2 .gallery > .thumbnail {
+        width: 150px;
+        height: 150px;
+        border: 1px solid black;
+        margin: 5px; }
+    .body .row-2 > img {
+      margin: 20px;
+      cursor: pointer; }
+  .body .row-3 {
+    background-color: #afbfb1;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    margin-top: 10px; }
+    .body .row-3 .media {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 95vw; }
+    .body .row-3 > img {
+      cursor: pointer; }
+
+/*# sourceMappingURL=styles.css.map */
